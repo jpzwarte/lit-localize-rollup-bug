@@ -7,7 +7,7 @@ export const bar = msg('HELLO WORLD');
 @localized()
 export class Foo extends LitElement {
   override render(): TemplateResult {
-    return html`${msg('HELLO WORLD')}`;
+    return html`<h1>${msg('HELLO WORLD')}</h1>`;
   }
 }
 
